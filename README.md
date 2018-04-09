@@ -23,7 +23,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 In order to install required libraries, you first have to install Pip.  
 There are many methods for getting Pip installed, but my preferred method is the following:
 * Download [get-pip.py](https://bootstrap.pypa.io/get-pip.py) to a folder on your computer. Open a command prompt window and navigate to the folder containing get-pip.py. Then run python get-pip.py. This will install pip.  
-* Verify a successful installation by opening a command prompt window and typing `pip freeze`
+* Verify a successful installation by opening a command prompt window and typing `pip freeze`  
 `pip freeze` *displays the version number of all modules installed in your Python non-standard library*  
 
 ```Microsoft Windows [Version 10.0.15063]
@@ -48,6 +48,11 @@ Open the command window and install the required libraries using `pip install ..
 
 
 ## Creating an executable file
-
+As the tool is to be used by employees with no programming background or knowledge, it is necessary to create an executable file. 
+Currently, PyInstaller throws an error because of integration with _**pandas**_ library. The error is fixed by following this procedure:
+1. Locate PyInstaller folder..\hooks, e.g. `C:\Users\212633614\AppData\Local\Programs\Python\Python36\Lib\site-packages\PyInstaller\hooks`
+2. Create file `hook-pandas.py` with contents:  
+`hiddenimports = ['pandas._libs.tslibs.timedeltas']`
+3. Navigate to the folder where you downloaded `final - new.py`
 
 
