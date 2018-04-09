@@ -53,6 +53,9 @@ Currently, PyInstaller throws an error because of integration with _**pandas**_ 
 1. Locate PyInstaller folder..\hooks, e.g. `C:\Users\212633614\AppData\Local\Programs\Python\Python36\Lib\site-packages\PyInstaller\hooks`
 2. Create file `hook-pandas.py` with contents:  
 `hiddenimports = ['pandas._libs.tslibs.timedeltas']`
-3. Navigate to the folder where you downloaded `final - new.py`
+3. Navigate to the folder where you downloaded `app.py`
+4. Type `pyinstaller --onefile vacation_announcement_tool.py`  
+
+The executable file will be created in the same directory in `dist` folder.
 
 
