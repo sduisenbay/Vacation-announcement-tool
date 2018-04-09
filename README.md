@@ -9,7 +9,7 @@ The code uses _**pandas**_ library to work with Excel files, and _**win32**_ lib
 Installation of Python itself should be fairly straight-forward.
 * Download and execute the latest Python 3.6.1 installation package from [here](https://www.python.org/downloads/release/python-361/)
 * Put a tick when asked whether to add python path as environment variable
-* Verify a successful installation by opening a command prompt window by typing `python` to open Python interpreter  
+* Verify a successful installation by opening a command prompt window and typing `python` to open Python interpreter  
 
 ```Microsoft Windows [Version 10.0.15063]
 (c) 2017 Microsoft Corporation. All rights reserved.
