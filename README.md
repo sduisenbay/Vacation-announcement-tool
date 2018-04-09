@@ -4,8 +4,8 @@ The aim of the project is to create a tool to automate the manual **vacation ann
 The project automates the process of necessary Excel files generation and Outlook letter generation.  
     
 The code uses _**pandas**_ library to work with Excel files, and _**win32**_ library to work with Outlook.
-## Prerequisites for running the code && creating an executable file
-#### Python installation
+## Prerequisites for running the code
+### Python installation
 Installation of Python itself should be fairly straight-forward.
 * Download and execute the latest Python 3.6.1 installation package from [here](https://www.python.org/downloads/release/python-361/)
 * Put a tick when asked whether to add python path as environment variable
@@ -19,7 +19,7 @@ Python 3.6.1 (v3.6.1:69c0db5, Mar 21 2017, 18:41:36) [MSC v.1900 64 bit (AMD64)]
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
-#### Pip installation
+### Pip installation
 In order to install required libraries, you first have to install Pip.  
 There are many methods for getting Pip installed, but my preferred method is the following:
 * Download [get-pip.py](https://bootstrap.pypa.io/get-pip.py) to a folder on your computer. Open a command prompt window and navigate to the folder containing get-pip.py. Then run python get-pip.py. This will install pip.  
@@ -35,9 +35,19 @@ click==6.7
 Flask==0.12.2
 future==0.16.0
 ```
-#### Libraries installation
+### Libraries installation
+Several packages should be installed before code can be executed.  
+Open the command window and install the required libraries using `pip install ...`
+1. Numpy - `pip install numpy`
+2. Pandas - `pip install pandas`
+3. PyInstaller - `pip install PyInstaller`
+4. PypiWin32 - `pip install pypiwin32`
+5. PyWin32 - `pip install pywin32`
+6. Xlrd - `pip install xlrd`
+7. Xlsxwriter - `pip install xlsxwriter`
 
 
+## Creating an executable file
 
 
 
