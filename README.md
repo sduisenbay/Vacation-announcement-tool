@@ -1,9 +1,14 @@
 # Vacation-announcement-tool
 This is the Python code for one of my projects during 2nd rotation of DTLP program.   
-The aim of the project is to create a tool to automate the vacation announcement procedure performed manually by HR employees.   
+The aim of the project is to create a tool to automate the manual **vacation announcement procedure**.   
 The project automates the process of necessary Excel files generation and Outlook letter generation.  
     
-The code uses _**pandas**_ library to work with Excel files, and _**win32**_ to work with Outlook.
+The code uses _**pandas**_ library to work with Excel files, and _**win32**_ library to work with Outlook.
 ## Prerequisites for running the code && creating an executable file
-The code is written and tested on [Python-3.6.1](https://www.python.org/downloads/release/python-361/)
+#### Python installation
+Installation of Python itself should be fairly straight-forward.
+* Download and execute the latest Python 3.6.1 installation package from [here](https://www.python.org/downloads/release/python-361/)
+* Put a tick when asked whether to add python path as environment variable
+* Verify a successful installation by opening a command prompt window by typing >python
+
 
