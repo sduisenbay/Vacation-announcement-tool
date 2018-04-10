@@ -22,7 +22,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 ### Pip installation
 In order to install required libraries, you first have to install Pip.  
 There are many methods for getting Pip installed, but my preferred method is the following:
-* Download [get-pip.py](https://bootstrap.pypa.io/get-pip.py) to a folder on your computer. Open a command prompt window and navigate to the folder containing get-pip.py. Then run python get-pip.py. This will install pip.  
+* Download [get-pip.py](https://bootstrap.pypa.io/get-pip.py) to a folder on your computer. Open a command prompt window and navigate to the folder containing get-pip.py. Then run `python get-pip.py`. This will install pip.  
 * Verify a successful installation by opening a command prompt window and typing `pip freeze`  
 `pip freeze` *displays the version number of all modules installed in your Python non-standard library*  
 
