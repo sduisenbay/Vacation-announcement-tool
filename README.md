@@ -1,5 +1,4 @@
-# Vacation-announcement-tool
-This is the Python code for one of my projects during 2nd rotation of DTLP program.   
+# Vacation-announcement-tool   
 The aim of the project is to create a tool to automate the manual **vacation announcement procedure**.   
 The project automates the process of necessary Excel files generation and Outlook letter generation.  
     
